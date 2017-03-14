@@ -82,7 +82,7 @@ function respond() {
   
   else if(request.text && botRegexOW.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("www.daddyleagues.com/maddenrating/");
+    postMessage("www.daddyleagues.com/ppl/");
     this.res.end();
   } 
   else if(request.text && botRegexSalt.test(request.text)) {
