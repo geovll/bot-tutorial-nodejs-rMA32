@@ -68,7 +68,7 @@ function respond() {
     postMessage("https://i.groupme.com/1006x1340.jpeg.730381e4280e4028b8375432af14f39f.large");
     this.res.end();
   } 
-  else if(request.text && botRegexShaki.test(request.text)) {
+  else if(request.text && botRegexlafx.test(request.text)) {
     this.res.writeHead(200);
     postMessage("https://i.groupme.com/305x375.jpeg.a8dd3aa18c7a4963a553e6dc16bcb100.large");
     this.res.end();
